@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 100vh;
+}
+.calci {
+     display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    /* margin: 350px; */
+    gap: 20px;
+    height: 50vh;
+    background-color: pink; 
+}
+  
+    #input {
+        border-radius: 30px;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        border-radius: 9px;
+        margin: 5px;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin-bottom: 7px;
+
+    }
+
+    #a {
+        background-color: rgb(186, 211, 103);
+        color: black;
+    }
+
+    #mul {
+        background-color: rgb(186, 211, 103);
+        color: black;
+    }
+
+    #minus {
+        background-color: rgb(186, 211, 103);
+        color: black;
+    }
+
+    #plus {
+        background-color: rgb(186, 211, 103);
+        color: black;
+    }
+
+    #equal {
+        width: 100px;
+        background-color: rgb(198, 109, 164);
+    }
+
+
+    button:hover {
+        background-color: rgb(142, 120, 39);
+        cursor: pointer;
+    }
+
+
+
+

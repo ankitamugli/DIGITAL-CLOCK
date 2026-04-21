@@ -37,7 +37,7 @@
          width: 250px;
          margin-left: 20px;
          margin-top: 30px;
-        
+
      }
 
      p {
@@ -45,10 +45,11 @@
          line-height: 1.6;
          margin-right: 15px;
      }
-   button {
-    display: block;
-    margin: auto;  
-    padding: 10px 20px;
-    background-color: aquamarine;
-}
+
+     button {
+         display: block;
+         margin: auto;
+         padding: 10px 20px;
+         background-color: aquamarine;
+     }
  }

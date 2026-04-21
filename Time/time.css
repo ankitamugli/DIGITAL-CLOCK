@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,17 +11,17 @@
     padding: 10px;
     margin: 100px;
 
-   .contain{
-    font-size: 10px;
-    display: flex;
-    gap: 20px;
-    border: 1px solid black;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    font-size: 10px;
-    border-radius: 10px;
-   }
+    .contain {
+        font-size: 10px;
+        display: flex;
+        gap: 20px;
+        border: 1px solid black;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        border-radius: 10px;
     }
+}
